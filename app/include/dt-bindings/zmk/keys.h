@@ -182,7 +182,7 @@
 
 /* Keyboard ( (Left Parenthesis) */
 #define LEFT_PARENTHESIS                                                                           \
-    (LS(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_9_AND_LEFT_PARENTHESIS)))
+    (LS(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_8_AND_ASTERISK)))
 #define LPAR (LEFT_PARENTHESIS)
 #define LPRN (LEFT_PARENTHESIS) // WARNING: DEPRECATED (DO NOT USE)
 
@@ -193,7 +193,7 @@
 
 /* Keyboard ) (Right Parenthesis) */
 #define RIGHT_PARENTHESIS                                                                          \
-    (LS(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_0_AND_RIGHT_PARENTHESIS)))
+    (LS(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_9_AND_LEFT_PARENTHESIS)))
 #define RPAR (RIGHT_PARENTHESIS)
 #define RPRN (RIGHT_PARENTHESIS) // WARNING: DEPRECATED (DO NOT USE)
 
@@ -219,7 +219,7 @@
 #define SPC (SPACE) // WARNING: DEPRECATED (DO NOT USE)
 
 /* Keyboard - and _ (Minus and Underscore) */
-#define MINUS () (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_SLASH_AND_QUESTION_MARK))
+#define MINUS (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_SLASH_AND_QUESTION_MARK))
 
 
 /* Keyboard _ (Underscore) */
