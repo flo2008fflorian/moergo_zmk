@@ -175,7 +175,7 @@
 #define ASTRK (ASTERISK)
 #define STAR (ASTERISK)
 
-/* Keyboard 9 and ( (Left Parenthesis) */
+/* Keyboard 9 and ( (Left Parenthesis) */ // lol update?
 #define NUMBER_9 (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_9_AND_LEFT_PARENTHESIS))
 #define N9 (NUMBER_9)
 #define NUM_9 (NUMBER_9) // WARNING: DEPRECATED (DO NOT USE)
