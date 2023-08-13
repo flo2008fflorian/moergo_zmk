@@ -219,7 +219,8 @@
 #define SPC (SPACE) // WARNING: DEPRECATED (DO NOT USE)
 
 /* Keyboard - and _ (Minus and Underscore) */
-#define MINUS (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_MINUS_AND_UNDERSCORE))
+#define MINUS () (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_SLASH_AND_QUESTION_MARK))
+
 
 /* Keyboard _ (Underscore) */
 #define UNDERSCORE (LS(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_MINUS_AND_UNDERSCORE)))
@@ -234,7 +235,7 @@
 
 /* Keyboard [ and { (Left Bracket and Left Brace) */
 #define LEFT_BRACKET                                                                               \
-    (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_LEFT_BRACKET_AND_LEFT_BRACE))
+    (RA(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_5_AND_PERCENT))) 
 #define LBKT (LEFT_BRACKET)
 
 /* Keyboard { (Left Brace) */
@@ -245,12 +246,12 @@
 
 /* Keyboard ] and } (Right Bracket and Right Brace) */
 #define RIGHT_BRACKET                                                                              \
-    (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_RIGHT_BRACKET_AND_RIGHT_BRACE))
+    (RA(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_6_AND_CARET))) 
 #define RBKT (RIGHT_BRACKET)
 
 /* Keyboard } (Right Brace) */
 #define RIGHT_BRACE                                                                                \
-    (LS(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_RIGHT_BRACKET_AND_RIGHT_BRACE)))
+   (RA(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_9_AND_LEFT_PARENTHESIS))) 
 #define RBRC (RIGHT_BRACE)
 #define RCUR (RIGHT_BRACE) // WARNING: DEPRECATED (DO NOT USE)
 
@@ -259,7 +260,7 @@
 #define BSLH (BACKSLASH)
 
 /* Keyboard | (Pipe) */
-#define PIPE (LS(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_BACKSLASH_AND_PIPE)))
+#define PIPE (RA(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_7_AND_AMPERSAND))) 
 
 /* Keyboard Non-US # and ~ (Non-US Hash/Number and Tilde) */
 #define NON_US_HASH (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_NON_US_HASH_AND_TILDE))
@@ -317,7 +318,7 @@
 #define RABT (GREATER_THAN) // WARNING: DEPRECATED (DO NOT USE)
 
 /* Keyboard / and ? (Forward Slash and Question) */
-#define SLASH (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_SLASH_AND_QUESTION_MARK))
+#define SLASH (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_MINUS_AND_UNDERSCORE))
 #define FSLH (SLASH)
 
 /* Keyboard ? (Question) */
