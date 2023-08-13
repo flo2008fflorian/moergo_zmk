@@ -238,8 +238,8 @@
 #define LBKT (LEFT_BRACKET)
 
 /* Keyboard { (Left Brace) */
-#define LEFT_BRACE                                                                                 \
-    (LS(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_LEFT_BRACKET_AND_LEFT_BRACE)))
+#define LEFT_BRACE (RA(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_8_AND_ASTERISK)))                                                                                \
+    // (LS(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_LEFT_BRACKET_AND_LEFT_BRACE)))
 #define LBRC (LEFT_BRACE)
 #define LCUR (LEFT_BRACE) // WARNING: DEPRECATED (DO NOT USE)
 
