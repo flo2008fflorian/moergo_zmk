@@ -129,12 +129,12 @@
 
         base_layer {
             bindings = <
-    &kp F1      &kp F2   &kp F3    &kp F4     &kp F5                                                                                &kp F6      &kp F7    &kp F8    &kp F9    &kp F10
-    &kp EQUAL   &kp N1   &kp N2    &kp N3     &kp N4  &kp N5                                                                        &kp N6      &kp N7     &kp N8    &kp N9    &kp N0  &kp FSLH
-    &kp TAB     &kp Q    &kp W     &kp E      &kp R   &kp T                                                                         &kp Z       &kp U      &kp I     &kp O     &kp P   &kp BSLH
-    &kp ESC     &hm LSHIFT A    &hml 1 S     &hm LGUI D      &hm LCTRL F   &kp G                                                    &kp H       &hm RCTL J  &hm RGUI K    &hm RALT L    &hm LSHIFT QMARK    &kp SQT
-    &none       &kp Y    &kp X     &kp C      &kp V   &kp B   &kp LGUI  &kp LCTRL  &kp LALT  &kp RALT   &lower  &kp RSHFT   &kp N   &kp M       &kp COMMA   &kp DOT  &kp MINUS  &none
-    &magic 3 0  &kp GRAVE  &kp END  &kp LEFT  &kp RIGHT          &kp SPACE   &kp BSPC   &kp RET  &kp LGUI  &kp DEL    &kp RET       &kp UP      &kp DOWN  &kp LBKT  &kp RBKT  &kp PG_DN
+    &kp F1      &kp F2          &kp F3      &kp F4      &kp F5                                                                                  &kp F6      &kp F7      &kp F8      &kp F9      &kp F10
+    &kp EQUAL   &kp N1          &kp N2      &kp N3      &kp N4      &kp N5                                                                      &kp N6      &kp N7      &kp N8      &kp N9      &kp N0              &kp FSLH
+    &kp TAB     &kp Q           &kp W       &kp E       &kp R       &kp T                                                                       &kp Z       &kp U       &kp I       &kp O       &kp P               &kp BSLH
+    &kp ESC     &hm LSHIFT A    &hml 1 S    &hm LGUI D  &hm LCTRL F &hm LALT G                                                                  &hm RALT H  &hm RCTL J  &hm RGUI K  &hml 1 L    &hm LSHIFT QMARK    &kp SQT
+    &none       &kp Y           &kp X       &kp C       &kp V       &kp B       &kp LGUI    &kp LCTRL  &kp LALT &kp RALT    &lower  &kp RSHIFT  &kp N       &kp M       &kp COMMA   &kp DOT     &kp MINUS           &none
+    &magic 3 0  &kp GRAVE       &kp END     &kp LEFT    &kp RIGHT               &kp SPACE   &kp BSPC   &kp RET  &kp LGUI    &kp DEL &kp RET                 &kp UP      &kp DOWN    &kp LBKT    &kp RBKT            &kp PG_DN
             >;
         };
 
