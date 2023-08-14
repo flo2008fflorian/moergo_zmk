@@ -181,8 +181,7 @@
 #define NUM_9 (NUMBER_9) // WARNING: DEPRECATED (DO NOT USE)
 
 /* Keyboard ( (Left Parenthesis) */
-#define LEFT_PARENTHESIS                                                                           \
-    (LS(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_8_AND_ASTERISK)))
+#define LEFT_PARENTHESIS (LS(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_8_AND_ASTERISK)))
 #define LPAR (LEFT_PARENTHESIS)
 #define LPRN (LEFT_PARENTHESIS) // WARNING: DEPRECATED (DO NOT USE)
 
@@ -221,7 +220,6 @@
 /* Keyboard - and _ (Minus and Underscore) */
 #define MINUS (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_SLASH_AND_QUESTION_MARK))
 
-
 /* Keyboard _ (Underscore) */
 #define UNDERSCORE (LS(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_MINUS_AND_UNDERSCORE)))
 #define UNDER (UNDERSCORE)
@@ -234,8 +232,7 @@
 #define PLUS (LS(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_EQUAL_AND_PLUS)))
 
 /* Keyboard [ and { (Left Bracket and Left Brace) */
-#define LEFT_BRACKET                                                                               \
-    (RA(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_5_AND_PERCENT))) 
+#define LEFT_BRACKET (RA(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_5_AND_PERCENT))) 
 #define LBKT (LEFT_BRACKET)
 
 /* Keyboard { (Left Brace) */
@@ -245,13 +242,12 @@
 #define LCUR (LEFT_BRACE) // WARNING: DEPRECATED (DO NOT USE)
 
 /* Keyboard ] and } (Right Bracket and Right Brace) */
-#define RIGHT_BRACKET                                                                              \
-    (RA(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_6_AND_CARET))) 
+#define RIGHT_BRACKET (RA(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_6_AND_CARET))) 
 #define RBKT (RIGHT_BRACKET)
 
 /* Keyboard } (Right Brace) */
 #define RIGHT_BRACE                                                                                \
-   (RA(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_9_AND_LEFT_PARENTHESIS))) 
+    (RA(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_9_AND_LEFT_PARENTHESIS))) 
 #define RBRC (RIGHT_BRACE)
 #define RCUR (RIGHT_BRACE) // WARNING: DEPRECATED (DO NOT USE)
 
@@ -260,7 +256,7 @@
 #define BSLH (BACKSLASH)
 
 /* Keyboard | (Pipe) */
-#define PIPE (RA(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_7_AND_AMPERSAND))) 
+#define PIPE (RA(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_7_AND_AMPERSAND)))
 
 /* Keyboard Non-US # and ~ (Non-US Hash/Number and Tilde) */
 #define NON_US_HASH (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_NON_US_HASH_AND_TILDE))
