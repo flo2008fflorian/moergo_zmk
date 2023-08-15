@@ -143,7 +143,7 @@
  &trans  &trans  &trans    &trans    &trans                                                                         &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans    &trans    &trans     &trans                                                      &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &kp AMPS  &kp PIPE     &kp EQUAL                                                   &trans  &trans  &trans  &trans  &trans  &kp UE
- &trans  &trans  &trans  &kp LBRC  &kp LBKT     &kp LPAR                                                    &trans  &trans  &trans  &trans  &kp OE  d&kp AE
+ &trans  &trans  &trans  &kp LBRC  &kp LBKT     &kp LPAR                                                    &trans  &trans  &trans  &trans  &kp OE  &kp AE
  &trans  &trans  &trans  &kp RBRC  &kp RBKT     &kp RPAR    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans    &trans    &trans                 &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
