@@ -145,11 +145,11 @@
         layer_programming {
             bindings = <
  &trans  &trans             &trans      &trans    &trans                                                                        &trans  &trans  &trans  &trans  &trans
- &trans  &trans             &kp DQT     &trans    &trans     &trans                                                     &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &kp EXCLAMATION    &kp SQT     &kp AMPS  &kp PIPE  &trans                                                  &trans  &trans  &trans  &trans  &trans  &kp UE
- &trans  &kp EQUAL          &kp GRAVE   &kp LBRC  &kp LBKT  &kp LPAR                                                    &trans  &trans  &trans  &trans  &kp OE  &kp AE
- &trans  &kp LT             &trans      &kp RBRC  &kp RBKT  &kp RPAR    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &kp GT             &trans      &trans    &trans                &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+ &trans  &trans             &trans      &trans    &trans     &trans                                                     &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &kp EXCLAMATION    &kp DQT     &kp AMPS  &kp PIPE  &trans                                                  &trans  &trans  &trans  &trans  &trans  &kp UE
+ &trans  &kp EQUAL          &kp SQT     &kp LBRC  &kp LBKT  &kp LPAR                                                    &trans  &trans  &trans  &trans  &kp OE  &kp AE
+ &trans  &kp LT             &kp GRAVE   &kp RBRC  &kp RBKT  &kp RPAR    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &kp GT             &kp SEMI    &trans    &trans                &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
