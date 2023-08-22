@@ -110,7 +110,7 @@
             label = "HOMEROW_MODS_KP";
             #binding-cells = <2>;
             tapping-term-ms = <200>;
-            quick-tap-ms = <150>;
+            quick-tap-ms = <180>;
             global-quick-tap;
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
@@ -121,7 +121,7 @@
             label = "HOMEROW_MODS_ML";
             #binding-cells = <2>;
             tapping-term-ms = <200>;
-            quick-tap-ms = <150>;
+            quick-tap-ms = <180>;
             global-quick-tap;
             flavor = "balanced";
             bindings = <&mo>, <&kp>;
@@ -137,7 +137,7 @@
     &none       &kp N1          &kp N2      &kp N3      &kp N4      &kp N5                                                                                      &kp N6      &kp N7      &kp N8      &kp N9      &kp N0      &kp FSLH
     &kp TAB     &kp Q           &kp W       &kp E       &kp R       &kp T                                                                                       &kp Z       &kp U       &kp I       &kp O       &kp P       &kp PLUS
     &kp LSHIFT  &kp A           &kp S      &hm LGUI D  &hm LCTRL F &hm LALT G                                                                                   &hm RALT H  &hm RCTL J  &hm RGUI K  &kp L       &kp QMARK   &kp RSHIFT
-    &kp LT      &kp Y           &kp X       &kp C       &kp V       &kp B       &kp LGUI        &kp LCTRL       &kp LALT    &kp RALT   &mo 2   &lower           &kp N       &kp M       &kp COMMA   &kp DOT     &kp MINUS   &kp PG_UP
+    &kp LT      &kp Y           &kp X       &kp C       &kp V       &kp B       &kp LCTRL        &kp LALT      &none        &kp RALT   &mo 2   &lower           &kp N       &kp M       &kp COMMA   &kp DOT     &kp MINUS   &kp PG_UP
     &magic 3 0  &kp ESC         &none       &kp LEFT    &kp RIGHT               &hm LGUI SPACE  &hm DEL BSPC    &hml 1 RET  &lower     &mo 1   &hm RGUI ENTER               &kp UP      &kp DOWN    &kp LBKT    &kp HASH    &kp PG_DN
             >;
         };
