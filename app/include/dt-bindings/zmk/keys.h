@@ -290,8 +290,7 @@
 #define QUOT (SINGLE_QUOTE) // WARNING: DEPRECATED (DO NOT USE)
 
 /* Keyboard " (Quote) */
-#define DOUBLE_QUOTES                                                                              \
-    (LS(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_2_AND_AT)))
+#define DOUBLE_QUOTES (LS(ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_2_AND_AT)))
 #define DQT (DOUBLE_QUOTES)
 
 /* Keyboard ` and ~ (Grave Accent and Tilde) */
