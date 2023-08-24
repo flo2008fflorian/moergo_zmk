@@ -103,7 +103,13 @@
 
     /* Custom Defined Behaviors */
 
-
+    wcd: word_cap_dance {
+        compatible = "zmk,behavior-tap-dance";
+        label = "MY_WORD_CAP_DANCE";
+        #binding-cells = <1>;
+        tapping-term-ms = <200>;
+        bindings = <&kp>, <&caps_word>;
+    };
 
     hm: homerow_mods_kp {
             compatible = "zmk,behavior-hold-tap";
