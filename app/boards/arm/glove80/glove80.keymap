@@ -103,7 +103,7 @@
 
     /* Custom Defined Behaviors */
 
-    wcd: word_cap_dance {
+    wcd: my_word_cap_dance {
         compatible = "zmk,behavior-tap-dance";
         label = "MY_WORD_CAP_DANCE";
         #binding-cells = <2>;
