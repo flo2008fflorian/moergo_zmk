@@ -137,9 +137,14 @@
  
     combos {
             compatible = "zmk,combos";
-            combo_prog_layer {
+            combo_prog_layer1 {
                 timeout-ms = <80>;
-                key-positions = <0 1>;
+                key-positions = <69 70>;
+                bindings = <&mo PROG_LAYER>;
+            };
+            combo_prog_layer2 {
+                timeout-ms = <80>;
+                key-positions = <73 74>;
                 bindings = <&mo PROG_LAYER>;
             };
         };
