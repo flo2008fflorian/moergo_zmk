@@ -135,6 +135,14 @@
 
     #define PROG_LAYER 1
  
+    combos {
+            compatible = "zmk,combos";
+            combo_prog_layer {
+                timeout-ms = <80>;
+                key-positions = <0 1>;
+                bindings = <&mo PROG_LAYER>;
+            };
+        };
     
 
     /* Automatically generated keymap */
