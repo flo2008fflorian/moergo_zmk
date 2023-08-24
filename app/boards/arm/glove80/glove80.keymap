@@ -106,9 +106,9 @@
     td0: tap_dance_0 {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_0";
-            #binding-cells = <0>;
+            #binding-cells = <1>;
             tapping-term-ms = <200>;
-            bindings = <&kp N1>, <&kp N2>, <&kp N3>;
+            bindings = <&kp>, <&caps_word>
         };
 
     hm: homerow_mods_kp {
@@ -134,8 +134,7 @@
         };
 
     #define PROG_LAYER 1
-
-
+ 
     
 
     /* Automatically generated keymap */
