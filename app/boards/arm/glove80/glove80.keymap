@@ -106,9 +106,9 @@
     wcd: word_cap_dance {
         compatible = "zmk,behavior-tap-dance";
         label = "MY_WORD_CAP_DANCE";
-        #binding-cells = <1>;
+        #binding-cells = <2>;
         tapping-term-ms = <200>;
-        bindings = <&kp>, <&caps_word>;
+        bindings = <&kp>, <&kp>;
     };
 
     hm: homerow_mods_kp {
