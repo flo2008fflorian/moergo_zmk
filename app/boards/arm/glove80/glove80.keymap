@@ -106,9 +106,9 @@
     td0: tap_dance_0 {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_0";
-            #binding-cells = <1>;
+            #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp>, <&caps_word>
+            bindings = <&kp LSHIFT>, <&caps_word>
         };
 
     hm: homerow_mods_kp {
