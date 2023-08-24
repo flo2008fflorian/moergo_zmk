@@ -144,12 +144,12 @@
 
         layer_programming {
             bindings = <
- &trans  &trans             &trans      &trans    &trans                                                                        &trans  &trans  &trans  &trans  &trans
- &trans  &trans             &trans      &trans    &trans     &trans                                                     &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &kp EXCLAMATION    &kp DQT     &kp AMPS  &kp PIPE  &trans                                                  &trans  &trans  &trans  &trans  &trans  &kp UE
- &trans  &kp EQUAL          &kp SQT     &kp LBRC  &kp LBKT  &kp LPAR                                                    &trans  &trans  &trans  &kp AT  &kp OE  &kp AE
- &trans  &kp LT             &kp GRAVE   &kp RBRC  &kp RBKT  &kp RPAR    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &kp GT             &trans      &trans    &trans                &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+ &trans  &trans             &trans      &trans    &trans                                                                        &trans      &trans  &trans  &trans  &trans
+ &trans  &trans             &trans      &trans    &trans    &trans                                                      &trans  &trans      &trans  &trans  &trans  &trans
+ &trans  &kp EXCLAMATION    &kp DQT     &kp AMPS  &trans    &trans                                                      &trans  &kp SLASH   &trans  &trans  &trans  &kp UE
+ &trans  &kp EQUAL          &kp SQT     &kp LBRC  &kp LBKT  &kp LPAR                                                    &trans  &kp PIPE    &trans  &kp AT  &kp OE  &kp AE
+ &trans  &kp LT             &kp GRAVE   &kp RBRC  &kp RBKT  &kp RPAR    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp BSLASH  &trans  &trans  &trans  &trans
+ &trans  &kp GT             &trans      &trans    &trans                &trans  &trans  &trans  &trans  &trans  &trans          &trans      &trans  &trans  &trans  &trans
             >;
         };
 
