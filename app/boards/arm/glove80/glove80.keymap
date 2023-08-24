@@ -127,7 +127,8 @@
             bindings = <&mo>, <&kp>;
         };
 
-    #define PROG_LAYER
+    #define PROG_LAYER 1
+    
     /* Automatically generated keymap */
     keymap {
         compatible = "zmk,keymap";
