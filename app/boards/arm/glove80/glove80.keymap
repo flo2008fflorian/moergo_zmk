@@ -127,18 +127,19 @@
             bindings = <&mo>, <&kp>;
         };
 
+    #define PROG_LAYER
     /* Automatically generated keymap */
     keymap {
         compatible = "zmk,keymap";
 
         base_layer {
             bindings = <
-    &kp F1      &kp F2          &kp F7      &kp F8      &kp F9                                                                                                              &kp F3      &kp F4      &kp F10     &kp F11     &kp F12
-    &none       &kp N1          &kp N2      &kp N3      &kp N4      &kp N5                                                                                      &kp N6      &kp N7      &kp N8      &kp N9      &kp N0      &kp FSLH
-    &kp TAB     &kp Q           &kp W       &kp E       &kp R       &kp T                                                                                       &kp Z       &kp U       &kp I       &kp O       &kp P       &kp PLUS
-    &kp LT      &kp A           &kp S       &hm LGUI D  &hm LCTRL F &hm LALT G                                                                                  &hm RALT H  &hm RCTL J  &hm RGUI K  &kp L       &kp QMARK   &kp HASH
-    &kp ESC     &kp Y           &kp X       &kp C       &kp V       &kp B       &kp LCTRL        &kp LALT      &none        &kp RALT   &mo 2   &lower           &kp N       &kp M       &kp COMMA   &kp DOT     &kp MINUS   &kp PG_UP
-    &magic 3 0  &kp LSHIFT      &kp SEMI    &kp LEFT    &kp RIGHT               &hm LGUI SPACE  &hm DEL BSPC    &hml 1 RET  &lower     &mo 1   &hm RGUI ENTER               &kp UP      &kp DOWN    &kp LBKT    &kp RSHIFT  &kp PG_DN
+    &kp F1      &kp F2          &kp F7      &kp F8      &kp F9                                                                                                                                  &kp F3      &kp F4      &kp F10     &kp F11     &kp F12
+    &none       &kp N1          &kp N2      &kp N3      &kp N4      &kp N5                                                                                                          &kp N6      &kp N7      &kp N8      &kp N9      &kp N0      &kp FSLH
+    &kp TAB     &kp Q           &kp W       &kp E       &kp R       &kp T                                                                                                           &kp Z       &kp U       &kp I       &kp O       &kp P       &kp PLUS
+    &kp LT      &kp A           &kp S       &hm LGUI D  &hm LCTRL F &hm LALT G                                                                                                      &hm RALT H  &hm RCTL J  &hm RGUI K  &kp L       &kp QMARK   &kp HASH
+    &kp ESC     &kp Y           &kp X       &kp C       &kp V       &kp B       &kp LCTRL        &kp LALT               &none       &kp RALT   &mo 2                &lower          &kp N       &kp M       &kp COMMA   &kp DOT     &kp MINUS   &kp PG_UP
+    &magic 3 0  &kp LSHIFT      &kp SEMI    &kp LEFT    &kp RIGHT               &hm LGUI SPACE  &hml PROG_LAYER BSPC    &hml 1 RET  &lower     &hml PROG_LAYER DEL   &hm RGUI ENTER             &kp UP      &kp DOWN    &kp LBKT    &kp RSHIFT  &kp PG_DN
             >;
         };
 
