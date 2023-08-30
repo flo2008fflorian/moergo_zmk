@@ -152,6 +152,12 @@
                 key-positions = <69 74>;
                 bindings = <&mo PROG_LAYER>;
             };
+
+            combo_semi_colon {X
+                timeout-ms = <100>;
+                key-positions = <65 66>;
+                bindings = <&kp COMMA>;
+            };
         };
     
 
