@@ -103,12 +103,19 @@
 
     /* Custom Defined Behaviors */
 
-    shift: my_shift {
+    lShift: my_shift {
             compatible = "zmk,behavior-tap-dance";
-            label = "MY_SHIFT";
+            label = "MY_SHIFT_L";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp LSHIFT>, <&caps_word>;
+        };
+    rShift: my_shift {
+            compatible = "zmk,behavior-tap-dance";
+            label = "MY_SHIFT_R;
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp RSHIFT>, <&caps_word>;
         };
 
     hm: homerow_mods_kp {
@@ -171,19 +178,19 @@
     &none       &kp N1  &kp N2      &kp N3      &kp N4      &kp N5                                                                                          &kp N6      &kp N7      &kp N8      &kp N9      &kp N0      &kp SS
     &kp TAB     &kp Q   &kp W       &kp E       &kp R       &kp T                                                                                           &kp Z       &kp U       &kp I       &kp O       &kp P       &kp PLUS
     &kp LT      &kp A   &kp S       &hm LGUI D  &hm LCTRL F &hm LALT G                                                                                      &hm RALT H  &hm RCTL J  &hm RGUI K  &kp L       &kp QMARK   &kp HASH
-    &kp ESC     &kp Y   &kp X       &kp C       &kp V       &kp B       &kp LCTRL       &kp LALT    &none       &kp RALT    &mo 2           &lower          &kp N       &kp M       &kp COMMA   &kp DOT     &kp MINUS   &kp PG_UP
-    &magic 3 0  &shift  &kp SEMI    &kp LEFT    &kp RIGHT               &hm LGUI SPACE  &kp BSPC    &kp RET  &lower      &kp DEL         &hm RGUI ENTER              &kp UP      &kp DOWN    &kp LBKT    &shift      &kp PG_DN
+    &kp ESC     &kp Y   &kp X       &kp C       &kp V       &kp B       &kp LCTRL       &kp LALT    &none   &kp RALT    &mo 2           &lower              &kp N       &kp M       &kp COMMA   &kp DOT     &kp MINUS   &kp PG_UP
+    &magic 3 0  &lShift &kp SEMI    &kp LEFT    &kp RIGHT               &hm LGUI SPACE  &kp BSPC    &kp RET &lower      &kp DEL         &hm RGUI ENTER                  &kp UP      &kp DOWN    &kp LBKT    &rShift     &kp PG_DN
             >;
         };
 
         layer_programming {
             bindings = <
- &trans  &trans             &trans      &trans    &trans                                                                        &trans      &trans  &trans  &trans  &trans
- &trans  &trans             &trans      &trans    &trans    &trans                                                      &trans  &trans      &trans  &trans  &trans  &trans
- &trans  &kp EXCLAMATION    &kp DQT     &kp AMPS  &kp DLLR  &kp PRCNT                                                   &trans  &kp SLASH   &trans  &trans  &trans  &kp UE
- &trans  &kp EQUAL          &kp SQT     &kp LBRC  &kp LBKT  &kp LPAR                                                    &trans  &kp PIPE    &trans  &kp AT  &kp OE  &kp AE
- &trans  &kp LT             &kp GRAVE   &kp RBRC  &kp RBKT  &kp RPAR    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp BSLH    &trans  &trans  &trans  &trans
- &trans  &kp GT             &trans      &trans    &trans                &trans  &trans  &trans  &trans  &trans  &trans          &trans      &trans  &trans  &trans  &trans
+ &trans  &trans             &trans      &trans    &trans                                                                            &trans      &trans  &trans  &trans  &trans
+ &trans  &trans             &trans      &trans    &trans    &trans                                                      &trans      &trans      &trans  &trans  &trans  &trans
+ &trans  &kp EXCLAMATION    &kp DQT     &kp AMPS  &kp DLLR  &kp PRCNT                                                   &trans      &kp SLASH   &trans  &trans  &trans  &kp UE
+ &trans  &kp EQUAL          &kp SQT     &kp LBRC  &kp LBKT  &kp LPAR                                                    &trans      &kp PIPE    &trans  &kp AT  &kp OE  &kp AE
+ &trans  &kp LT             &kp GRAVE   &kp RBRC  &kp RBKT  &kp RPAR    &trans  &trans  &trans  &trans  &trans  &trans  &kp TILDE   &kp BSLH    &trans  &trans  &trans  &trans
+ &trans  &kp GT             &trans      &trans    &trans                &trans  &trans  &trans  &trans  &trans  &trans              &trans      &trans  &trans  &trans  &trans
             >;
         };
 
