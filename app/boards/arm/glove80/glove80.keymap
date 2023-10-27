@@ -117,26 +117,26 @@
             #binding-cells = <0>;
             bindings
                 = <&macro_press &kp RALT>
-                , <&macro_tap &kp A>
+                , <&macro_tap &kp U>
                 , <&macro_release &kp RALT>
                 , <&macro_tap &kp A>
                 ;
     };
 
     oe: my_oe {
-            label = "ae";
+            label = "oe";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
                 = <&macro_press &kp RALT>
-                , <&macro_tap &kp O>
+                , <&macro_tap &kp U>
                 , <&macro_release &kp RALT>
                 , <&macro_tap &kp O>
                 ;
     };
 
-    ue: my_ae {
-            label = "ae";
+    ue: my_ue {
+            label = "ue";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
@@ -200,7 +200,7 @@
             combo_greater_than {
                 timeout-ms = <100>;
                 key-positions = <35 78>;
-                bindings = <&mo PROG_LAYER>;
+                bindings = <&kp GT>;
             };
 
         };
