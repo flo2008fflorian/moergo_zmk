@@ -119,7 +119,7 @@
                 = <&macro_tap &kp RALT &kp U>
                 , <&macro_tap &kp U>
                 ;
-    }
+    };
 
    /* rshift: my_shift_r {
             compatible = "zmk,behavior-tap-dance";
