@@ -108,7 +108,7 @@
     /* Custom Defined Behaviors */
 
     shift: my_shift {
-            compatible = "zmk,behavior-tap-dance"
+            compatible = "zmk,behavior-tap-dance";
             label = "MY_SHIFT";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
