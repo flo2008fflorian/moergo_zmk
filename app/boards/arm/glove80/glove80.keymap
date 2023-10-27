@@ -202,7 +202,7 @@
             };
 
             combo_greater_than {
-                timeout-ms = <1000 '>;
+                timeout-ms = <1000>;
                 key-positions = <34 78>;
                 bindings = <&kp GT>;
             };
