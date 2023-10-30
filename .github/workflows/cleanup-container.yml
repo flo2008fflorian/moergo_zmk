@@ -6,6 +6,7 @@ on:
     branches:
       - main
       - english
+      - english_windows
 
 jobs:
   build:
