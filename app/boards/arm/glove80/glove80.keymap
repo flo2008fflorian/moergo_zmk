@@ -124,9 +124,9 @@
             tap-ms = <0>;
             bindings
                 = <&macro_press &kp RALT>
-                , <&macro_tap &kp KP_1>
-                , <&macro_tap &kp KP_3>
-                , <&macro_tap &kp KP_2>
+                , <&macro_tap &kp KP_N1>
+                , <&macro_tap &kp KP_N3>
+                , <&macro_tap &kp KP_N2>
                 , <&macro_release &kp RALT>
                 ;
     };
@@ -139,9 +139,9 @@
             tap-ms = <0>;
             bindings
                 =  <&macro_press &kp RALT>
-                , <&macro_tap &kp KP_1>
-                , <&macro_tap &kp KP_4>
-                , <&macro_tap &kp KP_8>
+                , <&macro_tap &kp KP_N1>
+                , <&macro_tap &kp KP_N4>
+                , <&macro_tap &kp KP_N8>
                 , <&macro_release &kp RALT>
                 ;
     };
@@ -154,9 +154,9 @@
             tap-ms = <0>;
             bindings
                 =  <&macro_press &kp RALT>
-                , <&macro_tap &kp KP_1>
-                , <&macro_tap &kp KP_2>
-                , <&macro_tap &kp KP_9>
+                , <&macro_tap &kp KP_N1>
+                , <&macro_tap &kp KP_N2>
+                , <&macro_tap &kp KP_N9>
                 , <&macro_release &kp RALT>
                 ;
     };
