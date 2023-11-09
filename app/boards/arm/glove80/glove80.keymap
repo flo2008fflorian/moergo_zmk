@@ -245,8 +245,8 @@
  &trans  &trans             &trans      &trans    &trans    &trans                                                      &trans      &trans      &trans  &trans  &trans  &trans
  &trans  &kp EXCLAMATION    &kp DQT     &kp AMPS  &kp DLLR  &kp PRCNT                                                   &trans      &kp SLASH   &trans  &trans  &trans  &ue
  &trans  &kp EQUAL          &kp SQT     &kp LBRC  &kp LBKT  &kp LPAR                                                    &trans      &kp PIPE    &trans  &trans  &oe     &ae
- &trans  &kp LT             &kp GRAVE   &kp RBRC  &kp RBKT  &kp RPAR    &trans  &trans  &trans  &trans  &trans  &trans  &kp TILDE   &kp BSLH    &trans  &trans  &trans  &trans
- &trans  &kp GT             &trans      &trans    &trans                &trans  &trans  &trans  &trans  &trans  &trans              &trans      &trans  &trans  &trans  &trans
+ &trans  &kp GT             &kp GRAVE   &kp RBRC  &kp RBKT  &kp RPAR    &trans  &trans  &trans  &trans  &trans  &trans  &kp TILDE   &kp BSLH    &trans  &trans  &trans  &trans
+ &trans  &kp LT             &trans      &trans    &trans                &trans  &trans  &trans  &trans  &trans  &trans              &trans      &trans  &trans  &trans  &trans
             >;
         };
 
