@@ -188,41 +188,12 @@
             bindings = <&mo>, <&kp>;
         };
 
-        td_x: tap_dance_x {
+td: tap_dance_x {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_X";
             #binding-cells = <1>;
             tapping-term-ms = <200>;
-            bindings = <&kp X>, <&kp LG(X)>;
-        };
-
-        td_c: tap_dance_c {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_C";
-            #binding-cells = <1>;
-            tapping-term-ms = <200>;
-            bindings = <&kp C>, <&kp LG(C)>;
-        };
-        td_v: tap_dance_v {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_V";
-            #binding-cells = <1>;
-            tapping-term-ms = <200>;
-            bindings = <&kp V>, <&kp LG(V)>;
-        };
-        td_z: tap_dance_z {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_Z";
-            #binding-cells = <1>;
-            tapping-term-ms = <200>;
-            bindings = <&kp Z>, <&kp LG(Z)>;
-        };
-        td_w: tap_dance_w {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_W";
-            #binding-cells = <1>;
-            tapping-term-ms = <200>;
-            bindings = <&kp W>, <&kp LG(W)>;
+            bindings = <&kp>, <&kp LG>;
         };
 
 
@@ -255,9 +226,9 @@
             bindings = <
     &kp F1          &kp F2  &kp C_PREV  &kp C_PP    &kp C_NEXT                                                                                                          &kp K_MUTE  &kp K_VOL_DN &kp K_VOL_UP &kp F3    &kp F4      
     &kp CARET       &kp N1  &kp N2      &kp N3      &kp N4      &kp N5                                                                                      &kp N6      &kp N7      &kp N8      &kp N9      &kp N0      &kp SS
-    &kp TAB         &kp Q   &td_w      &kp E       &kp R       &kp T                                                                                       &td_z       &kp U       &kp I       &kp O       &kp P       &kp PLUS
+    &kp TAB         &kp Q   &td W     &kp E       &kp R       &kp T                                                                                       &td Z       &kp U       &kp I       &kp O       &kp P       &kp PLUS
     &kp ESC         &kp A   &kp S       &kp D       &hm LALT F  &kp G                                                                                       &kp H       &hm RALT J  &kp K       &kp L       &kp QMARK   &kp HASH
-    &kp LT          &kp Y   &td_x       &kp_c       &kp_v       &kp B       &hm LCTRL LBRC   &hm LALT LPAR   &kp LBKT   &lower  &mo LOWER_L &kp RCTRL       &kp N       &kp M       &kp COMMA   &kp DOT     &kp MINUS   &kp PG_UP
+    &kp LT          &kp Y   &td X       &td C      &td V       &kp B       &hm LCTRL LBRC   &hm LALT LPAR   &kp LBKT   &lower  &mo LOWER_L &kp RCTRL       &kp N       &kp M       &kp COMMA   &kp DOT     &kp MINUS   &kp PG_UP
     &magic MAGIC_L 0 &shift &kp SEMI    &kp LEFT    &kp RIGHT               &hm LGUI SPACE   &kp BSPC        &kp RET    &kp LT  &kp DEL     &hm RGUI ENTER              &kp DOWN    &kp UP      &kp LBKT    &shift      &kp PG_DN
             >;
         }; 
