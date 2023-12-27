@@ -191,7 +191,7 @@
     td_x: tap_dance_x {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_X";
-            #binding-cells = <1>;
+            #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp X>, <&kp LGUI &kp X>;
         };
