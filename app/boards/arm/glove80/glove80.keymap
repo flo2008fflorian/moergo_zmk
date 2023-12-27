@@ -193,7 +193,7 @@ td: tap_dance_x {
             label = "TAP_DANCE_X";
             #binding-cells = <1>;
             tapping-term-ms = <200>;
-            bindings = <&kp>, <&kp LG>;
+            bindings = <&kp POSITION_0>, <&kp LGUI &kp POSITION_0>;
         };
 
 
