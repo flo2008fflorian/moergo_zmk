@@ -188,10 +188,10 @@
             bindings = <&mo>, <&kp>;
         };
 
-td: tap_dance_x {
+    td: tap_dance_x {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_X";
-            #binding-cells = <1>;
+            binding-cells = <1>;
             tapping-term-ms = <200>;
             bindings = <&kp POSITION_0>, <&kp LGUI &kp POSITION_0>;
         };
