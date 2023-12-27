@@ -193,7 +193,7 @@
             label = "TAP_DANCE_X";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp X>, <&kp LGUI &kp X>;
+            bindings = <&kp X>, <&kp LG(X)>;
         };
 
         td_c: tap_dance_c {
@@ -201,7 +201,7 @@
             label = "TAP_DANCE_c";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp C>, <&kp LGUI &kp C>;
+            bindings = <&kp C>, <&kp LG(C)>;
         };
 
         td_v: tap_dance_v {
@@ -209,7 +209,7 @@
             label = "TAP_DANCE_v";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp V>, <&kp LGUI &kp V>;
+            bindings = <&kp V>, <&kp LG(V)>;
         };
 
         td_z: tap_dance_z {
@@ -217,7 +217,7 @@
             label = "TAP_DANCE_z";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp Z>, <&kp LGUI &kp Z>;
+            bindings = <&kp Z>, <&kp LG(Z)>;
         };
 
         td_w: tap_dance_w {
@@ -225,7 +225,7 @@
             label = "TAP_DANCE_w";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp W>, <&kp LGUI &kp W>;
+            bindings = <&kp W>, <&kp LG(W)>;
         };
 
 
