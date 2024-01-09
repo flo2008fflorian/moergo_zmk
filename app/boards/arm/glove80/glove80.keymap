@@ -225,7 +225,7 @@
     &kp ESC     &kp A   &kp S       &kp D       &hm LALT F  &kp G                                                                                       &kp H  &hm RALT J       &kp K       &kp L       &kp QMARK   &kp HASH
     &kp LT      &kp Y   &kp X       &kp C       &kp V       &kp B   &hm LGUI LBRC   &hm LALT LPAR   &kp LBKT   &lower    &mo LOWER_L    &kp RGUI        &kp N       &kp M       &kp COMMA   &kp DOT     &kp MINUS   &kp PG_UP
     &magic MAGIC_L 0  &shift  &kp SEMI    &kp LEFT    &kp RIGHT     &hm LCTRL SPACE &kp BSPC        &kp RET    &kp LT    &kp DEL  &hm RCTRL ENTER              &kp DOWN      &kp UP    &kp LBKT    &shift      &kp PG_DN
-            >;
+            >; 
         }; 
 
         shift_layer {
