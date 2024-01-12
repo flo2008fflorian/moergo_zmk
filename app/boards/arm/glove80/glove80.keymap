@@ -188,46 +188,6 @@
             bindings = <&mo>, <&kp>;
         };
 
-    td_x: tap_dance_x {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_X";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&kp X>, <&kp LG(X)>;
-        };
-
-        td_c: tap_dance_c {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_c";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&kp C>, <&kp LG(C)>;
-        };
-
-        td_v: tap_dance_v {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_v";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&kp V>, <&kp LG(V)>;
-        };
-
-        td_z: tap_dance_z {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_z";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&kp Z>, <&kp LG(Z)>;
-        };
-
-        td_w: tap_dance_w {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_w";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&kp W>, <&kp LG(W)>;
-        };
-
 
  
     combos {
