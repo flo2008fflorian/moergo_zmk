@@ -232,7 +232,7 @@
     &kp RS(TAB) &kp RS(Q)   &kp RS(W)   &kp RS(E)       &kp RS(R)       &kp RS(T)                                                                                       &kp LS(Z)       &kp LS(U)       &kp LS(I)       &kp LS(O)       &kp LS(P)       &kp STAR
     &kp RS(ESC) &kp RS(A)   &kp RS(S)   &kp RS(D)       &hm LALT RS(F)  &kp RS(G)                                                                                       &kp LS(H)  &hm RALT LS(J)  &kp LS(K)       &kp LS(L)       &kp QMARK       &kp SQT
     &kp GT      &kp RS(Y)   &kp RS(X)   &kp RS(C)       &kp RS(V)       &kp RS(B)       &hm LCTRL RBRC   &hm LALT RPAR   &kp RBKT   &lower  &mo LOWER_L &kp RCTRL       &kp LS(N)       &kp LS(M)       &kp SEMICOLON   &kp COLON       &kp LS(MINUS)   &kp PG_UP
-    &magic MAGIC_L 0 &shift &kp SEMI    &kp RS(LEFT)    &kp RS(RIGHT)                   &hm LGUI SPACE   &kp BSPC        &hml RET    &kp GT  &kp DEL     &hm RGUI ENTER                  &kp LS(UP)      &kp LS(DOWN)    &kp LBKT        &shift          &kp PG_DN
+    &magic MAGIC_L 0 &shift &kp SEMI    &kp RS(LEFT)    &kp RS(RIGHT)                   &hm LGUI SPACE   &kp BSPC        &hml PROG_L RET    &hml PROG_L GT  &kp DEL     &hm RGUI ENTER                  &kp LS(UP)      &kp LS(DOWN)    &kp LBKT        &shift          &kp PG_DN
             >;
         }; 
 
