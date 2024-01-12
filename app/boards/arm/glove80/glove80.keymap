@@ -225,7 +225,7 @@
             label = "TAP_DANCE_w";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp W>, <&kp LG(W)>;
+            bindings = <&kp W>, <&kp LG(W)>
         };
 
 
@@ -258,10 +258,10 @@
             bindings = <
     &kp F1          &kp F2  &kp C_PREV  &kp C_PP    &kp C_NEXT                                                                                                          &kp K_MUTE  &kp K_VOL_DN &kp K_VOL_UP &kp F3    &kp F4      
     &kp CARET       &kp N1  &kp N2      &kp N3      &kp N4      &kp N5                                                                                      &kp N6      &kp N7      &kp N8      &kp N9      &kp N0      &kp SS
-    &kp TAB         &kp Q   &td_w     &kp E       &kp R       &kp T                                                                                       &td_z       &kp U       &kp I       &kp O       &kp P       &kp PLUS
+    &kp TAB         &kp Q   &kp W       &kp E       &kp R       &kp T                                                                                       &kp Z       &kp U       &kp I       &kp O       &kp P       &kp PLUS
     &kp ESC         &kp A   &kp S       &kp D       &hm LALT F  &kp G                                                                                       &kp H       &hm RALT J  &kp K       &kp L       &kp QMARK   &kp HASH
-    &kp LT          &kp Y   &td_x       &td_c      &td_v       &kp B       &hm LCTRL LBRC   &hm LALT LPAR   &kp LBKT   &lower  &mo LOWER_L &kp RCTRL       &kp N       &kp M       &kp COMMA   &kp DOT     &kp MINUS   &kp PG_UP
-    &magic MAGIC_L 0 &shift &kp SEMI    &kp LEFT    &kp RIGHT               &hm LGUI SPACE   &kp BSPC        &kp RET    &kp LT  &kp DEL     &hm RGUI ENTER              &kp DOWN    &kp UP      &kp LBKT    &shift      &kp PG_DN
+    &kp LT          &kp Y   &kp X       &kp C       &kp V       &kp B       &hm LCTRL LBRC   &hm LALT LPAR   &kp LBKT   &lower  &mo LOWER_L &kp RCTRL       &kp N       &kp M       &kp COMMA   &kp DOT     &kp MINUS   &kp PG_UP
+    &magic MAGIC_L 0 &shift &kp SEMI    &kp LEFT    &kp RIGHT               &hm LGUI SPACE   &kp BSPC   &hml PROG_L RET &hml PROG_L LT  &kp DEL   &hm RGUI ENTER        &kp DOWN    &kp UP      &kp LBKT    &shift      &kp PG_DN
             >;
         }; 
 
@@ -272,7 +272,7 @@
     &kp RS(TAB) &kp RS(Q)   &kp RS(W)   &kp RS(E)       &kp RS(R)       &kp RS(T)                                                                                       &kp LS(Z)       &kp LS(U)       &kp LS(I)       &kp LS(O)       &kp LS(P)       &kp STAR
     &kp RS(ESC) &kp RS(A)   &kp RS(S)   &kp RS(D)       &hm LALT RS(F)  &kp RS(G)                                                                                       &kp LS(H)  &hm RALT LS(J)  &kp LS(K)       &kp LS(L)       &kp QMARK       &kp SQT
     &kp GT      &kp RS(Y)   &kp RS(X)   &kp RS(C)       &kp RS(V)       &kp RS(B)       &hm LCTRL RBRC   &hm LALT RPAR   &kp RBKT   &lower  &mo LOWER_L &kp RCTRL       &kp LS(N)       &kp LS(M)       &kp SEMICOLON   &kp COLON       &kp LS(MINUS)   &kp PG_UP
-    &magic MAGIC_L 0 &shift &kp SEMI    &kp RS(LEFT)    &kp RS(RIGHT)                   &hm LGUI SPACE   &kp BSPC        &kp RET    &kp GT  &kp DEL     &hm RGUI ENTER                  &kp LS(UP)      &kp LS(DOWN)    &kp LBKT        &shift          &kp PG_DN
+    &magic MAGIC_L 0 &shift &kp SEMI    &kp RS(LEFT)    &kp RS(RIGHT)                   &hm LGUI SPACE   &kp BSPC        &hml RET    &kp GT  &kp DEL     &hm RGUI ENTER                  &kp LS(UP)      &kp LS(DOWN)    &kp LBKT        &shift          &kp PG_DN
             >;
         }; 
 
